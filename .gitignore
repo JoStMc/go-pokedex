@@ -7,12 +7,14 @@
 *.dll
 *.so
 *.dylib
+go-pokedex
 
 # Test binary, built with `go test -c`
 *.test
 
 # Code coverage profiles and other test artifacts
 *.out
+*.log
 coverage.*
 *.coverprofile
 profile.cov
