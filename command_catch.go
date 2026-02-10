@@ -24,9 +24,5 @@ func commandCatch(cfg *config, parameters ...string) error {
 	    fmt.Printf("%s escaped!\n", pok.Name)
 	} 
 
-	fmt.Println()
-	fmt.Println(pok.Stats)
-	fmt.Println()
-
 	return nil
 } 
